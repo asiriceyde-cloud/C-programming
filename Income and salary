@@ -1,0 +1,27 @@
+//display of income
+/*
+name: Gladys Opondo
+reg no: PA106/G/28789/25
+*/
+#include <stdio.h>
+
+int main() {
+    int age;
+    float income;
+
+    // Prompt the user for input
+    printf("Enter your age: ");
+    scanf("%d", &age);
+
+    printf("Enter your annual income (in Sh): ");
+    scanf("%f", &income);
+
+    // Check eligibility
+    if (age >= 21 && income >= 21000) {
+        printf("Congratulations! You are eligible for a loan.\n");
+    } else {
+        printf("Sorry, you are not eligible for a loan.\n");
+    }
+
+    return 0;
+}
