@@ -1,0 +1,18 @@
+// display for all units for this semester
+/*
+name: Gladys Opondo
+reg no: PA106/G/28789/25
+*/
+#include<stdio.h>
+
+int main() {
+    
+    printf("\n Discrete mathematics");
+    printf("\n Mathematics for science ");
+    printf("\n Fundamentals of ICT ");
+    printf("\n Computer system and organisation");
+    printf("\n Communication skills");
+    printf("\n Introduction to programming and problem solving");
+    printf("\n Fundamentals of system analysis and design");
+    
+    return 
