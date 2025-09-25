@@ -1,0 +1,28 @@
+//display of income
+/*
+name: Gladys Opondo
+reg no: PA106/G/28789/25
+*/
+
+#include <math.h>   // for M_PI (value of π)
+
+int main() {
+    double radius, height, volume, surfaceArea;
+
+    // Prompt the user to enter radius and height
+    printf("Enter the radius of the cylinder: ");
+    scanf("%lf", &radius);
+
+    printf("Enter the height of the cylinder: ");
+    scanf("%lf", &height);
+
+    // Calculate volume and surface area
+    volume = M_PI * radius * radius * height;
+    surfaceArea = 2 * M_PI * radius * radius + 2 * M_PI * radius * height;
+
+    // Display results
+    printf("Volume of the cylinder = %.2lf\n", volume);
+    printf("Surface Area of the cylinder = %.2lf\n", surfaceArea);
+
+    return 0;
+}
