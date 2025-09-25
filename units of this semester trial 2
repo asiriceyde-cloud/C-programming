@@ -1,0 +1,19 @@
+//display of the user
+/*
+name: Gladys Opondo
+reg no: PA106/G/28789/25
+*/
+
+#include<stdio.h>
+
+int main() {
+    
+    float height= 1.5;
+    printf("\n height= %f", height);
+    
+    int a=588023;
+    int Id no==a;
+    printf("\n Id=%d", &Id=a);
+    
+    return 0;
+}
